@@ -1,4 +1,4 @@
-let son = parseInt(+prompt(`Kvadratning tominini kiriting: `))
+let son = +prompt(`Kvadratning tominini kiriting: `)
 
 while (true) {
             if (son === null || isNaN(son) || son===0 ) {
